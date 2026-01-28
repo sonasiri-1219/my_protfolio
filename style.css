@@ -112,6 +112,11 @@ nav {
   object-fit: cover;
   transition: transform 0.3s ease;
 }
+.avatar img {
+  width: 230px;
+  height: 230px;
+}
+
 
 
 
@@ -407,6 +412,7 @@ footer {
     padding: 50px 20px;
   }
 }
+
 
 
 
