@@ -110,6 +110,12 @@ nav {
 .avatar img:hover {
   transform: scale(1.05);
 }
+.avatar img {
+  width: 150px;
+  height: auto;
+  display: block;
+}
+
 
 .info h2 {
   font-size: 32px;
@@ -403,4 +409,5 @@ footer {
     padding: 50px 20px;
   }
 }
+
 
