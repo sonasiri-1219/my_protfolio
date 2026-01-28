@@ -106,15 +106,11 @@ nav {
 }
 
 .avatar img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
-  transition: transform 0.3s ease;
-}
-.avatar img {
   width: 230px;
   height: 230px;
+  border-radius: 30%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
 }
 
 
@@ -412,6 +408,7 @@ footer {
     padding: 50px 20px;
   }
 }
+
 
 
 
