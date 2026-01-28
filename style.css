@@ -255,7 +255,7 @@ nav {
 }
 
 .skill-item {
-  background-color: #d9f1ff;
+  background-color: white;
   padding: 20px;
   border-radius: 12px;
   border-left: 5px solid var(--sky-dark);
@@ -286,9 +286,6 @@ nav {
 
 .project-card a:hover {
   text-decoration: underline;
-}
-#internships {
-  background-color: var(--sky);
 }
 
 .gallery-grid {
@@ -409,6 +406,7 @@ footer {
     padding: 50px 20px;
   }
 }
+
 
 
 
