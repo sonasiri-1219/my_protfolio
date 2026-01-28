@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="header-content">
+    <div class="text-content">
+  <h2 class="logo">My Portfolio</h2>
+  <nav>
+    <a href="#about" button class="nav-btn">About</button></a>
+        <a href="#skills" button class="nav-btn">Skills</button></a>
+        <a href="#gallery" button class="nav-btn">Gallery</button></a>
+        <a href="#contact" button class="nav-btn">Contact</button></a>
+    
+  </nav>
+  <button id="themeToggle">🌙</button>
+</header>
+
+<section id="personal-info" class="section fade-up">
+  <div class="personal-container">
+    <div class="avatar">
+      <img src="images/img1.jpg"alt="Your Photo">
+    </div>
+    <div class="info">
+      <h2>Chintha Sonasiri</h2>
+      
+      <p class="tagline">
+        Crafting clean and interactive web interfaces with passion and precision.
+      </p>
+      <ul class="quick-facts">
+        <li><strong>Languages:</strong> HTML, CSS, JavaScript, Java, SQL,DSA</li>
+        <li><strong>Current Role:</strong>  B.Tech Student & Aspiring Frontend Developer</li>
+        <li><strong>Interests:</strong> web development, AI, ml</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<section id="about" class="section fade-up">
+  <!-- YOUR EXISTING CONTENT -->
+   <h2>About Me</h2>
+  <p>
+    I am a dedicated and passionate web developer with a strong foundation in
+    frontend technologies and a growing proficiency in backend development.
+    With expertise in HTML5, CSS3, JavaScript, and React, I specialize in
+    crafting responsive, user-centric web applications.
+    <br><br>
+    In addition to my technical skills, I possess excellent soft skills,
+    including effective communication and teamwork, which allow me to
+    collaborate seamlessly with cross-functional teams.
+  </p>
+</section>
+
+<section id="skills" class="section dark fade-up">
+  <!-- YOUR EXISTING CONTENT -->
+   <h2>Skills</h2>
+
+  <div class="skills-list">
+    <div class="skill-item">
+      <h3>Frontend Development</h3>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Sql</li>
+        <li>Java</li>
+      </ul>
+    </div>
+
+    <div class="skill-item">
+      <h3>Data Structures & Algorithms</h3>
+      <ul>
+        <li>Array, Linked List, Stack, Queue</li>
+        <li>Hashing, Trees, Graphs</li>
+        <li>Sorting & Searching Algorithms</li>
+        <li>Big O Notation</li>
+      </ul>
+    </div>
+
+    <div class="skill-item">
+      <h3>Soft Skills</h3>
+      <ul>
+        <li>Effective Communication</li>
+        <li>Team Collaboration</li>
+        <li>Problem Solving</li>
+        <li>Presentation Skills</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section id="projects" class="section fade-up">
+  <h2>Projects</h2>
+
+  <div class="project-card">
+    <h3>Portfolio Website</h3>
+    <p>A modern and responsive personal portfolio built using HTML, CSS, and JavaScript.</p>
+    <a href="https://github.com/sonasiri-1219/my-portfolio" target="_blank">View on GitHub</a>
+  </div>
+
+  <div class="project-card">
+    <h3>ToDo List</h3>
+    <p>A weather forecasting web app that uses OpenWeatherMap API.</p>
+    <a href="https://github.com/sonasiri-1219/ToDoList" target="_blank">View on GitHub</a>
+  </div>
+  <div class="project-card">
+  <h3>Enchanted Wings: Marvels Of Butterfly Species</h3>
+  <p>
+    A deep learning–based system that classifies butterfly species from images
+    using MobileNetV2, covering data collection, visualization, model training,
+    and Flask-based deployment.
+  </p>
+  <a href="https://github.com/sonasiri-1219/enchanted-wings-marvels-of-butterfly-species-" 
+     target="_blank">
+    View on GitHub
+  </a>
+</div>
+
+</section>
+
+<section id="gallery" class="section fade-up">
+  <h2 class="section-title">Gallery</h2>
+
+  <div class="gallery-grid">
+    
+    
+    <img src="images/img2.jpg" alt="Achievement 1" class="gallery-item">
+    <img src="images/img3.jpg" alt="Achievement 2" class="gallery-item">
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div id="lightbox">
+  <span id="closeLightbox">&times;</span>
+  <img id="lightboxImg">
+</div>
+
+
+<section id="contact" class="section dark fade-up">
+  <!-- YOUR EXISTING CONTENT -->
+   <h2>Contact</h2>
+  <p>Email: sonasiri83@gmail.com</p>
+  <p>GitHub: <a href="https://github.com/sonasiri-1219" target="_blank">github</a></p>
+  <p>LinkedIn:
+    <a href="https://www.linkedin.com/in/chintha-sonasiri-b39457295" target="_blank">
+      linkedin
+    </a>
+  </p>
+</section>
+
+<footer>
+  © 2026 · All rights reserved
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
