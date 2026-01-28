@@ -287,6 +287,10 @@ nav {
 .project-card a:hover {
   text-decoration: underline;
 }
+#internships {
+  background-color: var(--sky);
+}
+
 .gallery-grid {
   column-count: 3;
   column-gap: 16px;
@@ -405,6 +409,7 @@ footer {
     padding: 50px 20px;
   }
 }
+
 
 
 
